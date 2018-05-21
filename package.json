@@ -1,0 +1,23 @@
+{
+  "name": "badjupiter_templates",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node_modules/.bin/webpack-cli --config webpack.config.js --env.development --mode=development --watch",
+    "build": "node_modules/.bin/webpack-cli --config webpack.config.js --env.production --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "node-sass": "^4.9.0",
+    "on-build-webpack": "^0.1.0",
+    "sass-loader": "^7.0.1",
+    "webpack": "^4.8.3",
+    "webpack-bundle-tracker": "^0.3.0",
+    "webpack-cli": "^2.1.3"
+  }
+}
